@@ -1,0 +1,5 @@
+FROM centos:6.8
+MAINTAINER jicheng <guojc@wise2c.com>
+# 安装 svn 
+RUN  yum install -y subversion  \
+  && yum clean all 
